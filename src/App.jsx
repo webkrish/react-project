@@ -4,7 +4,7 @@ import { Hero } from "./Hero";
 import { Help } from "./Help";
 import { Focus } from "./Focus";
 import { Sales } from "./Sales";
-import { Knowledge } from "./knowledge";
+import { Knowledge } from "./Knowledge";
 import { Map } from "./Map";
 import { Footer } from "./Footer";
 function App() {
