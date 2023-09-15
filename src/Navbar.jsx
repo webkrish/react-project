@@ -1,5 +1,7 @@
 
 import { useState, useEffect } from "react"
+import asset6 from "./assets/asset 6.webp";
+import asset8 from "./assets/asset 8.webp";
 
 export function Navbar() {
     const [scroll, setScroll] = useState(false);
@@ -103,7 +105,7 @@ export function Navbar() {
                                                 </svg></a>
                                             </div>
                                             <div className="img">
-                                                <img src="./src/assets/asset 6.webp" alt="" />
+                                                <img src={asset6} alt="" />
 
                                             </div>
                                         </div>
@@ -159,7 +161,7 @@ export function Navbar() {
                                                 </svg></a>
                                             </div>
                                             <div className="img">
-                                                <img src="./src/assets/asset 8.webp" alt="" />
+                                                <img src={asset8} alt="" />
 
                                             </div>
                                         </div>

@@ -1,4 +1,5 @@
 import heroImg from "./assets/main.webp";
+import asset19 from "./assets/asset-19.png";
 
 export function Hero() {
     return (
@@ -21,7 +22,7 @@ export function Hero() {
             </div>
             <div className="image">
                <div className="my-svg">
-                <img src="src/assets/asset-19.png" alt="" />
+                <img src={asset19} alt="" />
                </div>
                 <div className="small-img1">
                     <svg width="70" height="70" viewBox="0 0 101 102" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,10 +1,12 @@
+import asset23 from "./assets/asset23.webp";
+
 export function Focus() {
     return (
         <div className="focus-section">
             <div className="wrapper">
                 <div className="container">
                     <div className="image">
-                        <img src="./src/assets/asset23.webp" alt="" />
+                        <img src={asset23} alt="" />
                     </div>
                     <div className="text">
                         <h4><svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,3 +1,6 @@
+import asset14 from "./assets/asset 14.webp";
+import asset11 from "./assets/asset11.webp";
+
 export function Knowledge(params) {
     return (
         <div className="knowledge-sec">
@@ -12,7 +15,7 @@ export function Knowledge(params) {
                 </div>
                 <div className="container">
                     <div className="one">
-                        <img src="./src/assets/asset 14.webp" alt="" />
+                        <img src={asset14} alt="" />
                         <div className="text">
                             <h4>Marketing Systems</h4>
                             <i className="fa-solid fa-star"></i>
@@ -24,7 +27,7 @@ export function Knowledge(params) {
                         </div>
                     </div>
                     <div className="two">
-                        <img src="./src/assets/asset11.webp" alt="" />
+                        <img src={asset11} alt="" />
                         <div className="text">
                             <h4>Company profit</h4>
                             <i className="fa-solid fa-star"></i>

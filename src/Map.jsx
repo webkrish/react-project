@@ -1,3 +1,5 @@
+import asset25 from "./assets/asset 25.webp";
+
 export function Map(){
     return(
         <div className="map-sec">
@@ -10,7 +12,7 @@ export function Map(){
                     <h1>I will help you increase <br />
                         your reach by</h1>
                 </div>
-                <img src="./src/assets/asset 25.webp" alt="" />
+                <img src={asset25} alt="" />
             </div>
         </div>
     )

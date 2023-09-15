@@ -1,3 +1,5 @@
+import asset24 from "./assets/asset24.webp";
+
 export function Sales() {
     return (
         <div className="sales-section">
@@ -13,7 +15,7 @@ export function Sales() {
                             <span>threefold</span></h1>
                         <p>Nullam consequat volutpat donec urna lorem pellentesque. Pharetra velit pellentesque convallis augue. Nulla imperdiet aliquam accumsan auctor integer parturient.</p>
                     </div>
-                    <img src="./src/assets/asset24.webp" alt="" />
+                    <img src={asset24} alt="" />
                 </div>
             </div>
         </div>
