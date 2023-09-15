@@ -19,7 +19,7 @@ export function Hero() {
             </div>
             <div className="image">
                <div className="my-svg">
-                <img src="/src/assets/asset-19.png" alt="" />
+                <img src="src/assets/asset-19.png" alt="" />
                </div>
                 <div className="small-img1">
                     <svg width="70" height="70" viewBox="0 0 101 102" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +70,7 @@ export function Hero() {
                 </div>
 
                 <div className="img-main">
-                    <img src="/src/assets/asset18.webp" alt="" />
+                    <img src="src/assets/asset18.webp" alt="" />
                 </div>
                 <div className="small-img2">
                     <svg width="70" height="70" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
